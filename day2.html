@@ -1,0 +1,139 @@
+<!DOCTYPE html> <!-- Untuk memberitahu kalau ini menggunakan html-->
+<html lang="en"> <!-- Untuk memberitahu bahwa website base english-->
+<head> <!-- Untuk memanggil source external atau mengenai metadata website-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test RevoU Bootcamp</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body> <!-- Sesuatu yang perlu dirender di website -->
+    <p style="color: red;">Hello World</p> <!-- Paragraf -->
+    <hr> <!-- Horizontal line -->
+    <p>Halo, nama saya <br >Pradit</p>
+    <!-- Komentar -->
+    <!-- komentar = Ctrl + / -->
+    
+    <!-- header -->
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+    <h6>Header 6</h6>
+    <hr>
+    <!-- text formatting -->
+    <p><b>Bold</b></p>
+    <p><strong>Strong</strong></p>
+    <p><i>Italic</i></p>
+    <p><em>Emphasized</em></p>
+    <p><mark>Marked</mark></p>
+    <p><small>Small</small></p>
+    <p><del>Deleted</del></p>
+    <p><ins>Inserted</ins></p>
+    <p><sub>Subscript</sub></p>
+    <p><sup>Superscript</sup></p>
+    <hr>
+
+    <h1>Bullet Point</h1>
+    <!-- <ul> unordered list -->
+        <li>Apel <p>Apel adalah buah</p></li> 
+        <li>Pisang</li>
+        <li>Jeruk</li> <!-- list item -->
+    </ul>
+    <ul type="none">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <h1>ordered list</h1>
+    <!-- ordered list -->
+    <ul>
+        <li>1. Step 1</li>
+        <li>2. Step 2</li>
+        <li>3. Step 3</li>
+    </ul>
+    <ul type="A">
+        <li>A. Step 1</li>
+        <li>B. Step 2</li>
+        <li>C. Step 3</li>
+    </ul>
+    <ul type="a">
+        <li>a. Step 1</li>
+        <li>b. Step 2</li>
+        <li>c. Step 3</li>
+    </ul>
+    <ul type="I">
+        <li>I. Step 1</li>
+        <li>II. Step 2</li>
+        <li>III. Step 3</li>
+    </ul>
+    <hr>
+    <h1>Tabel</h1>
+    <!-- parent -->
+    <table border="1"> 
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alfred</td>
+                <td>ABC</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Pradit</td>
+                <td>pr23</td>
+                <td>France</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore explicabo veniam aliquam perspiciatis, commodi, placeat reiciendis esse dicta officia velit ipsum nostrum! Fugiat commodi soluta magni, doloribus voluptates necessitatibus fugit.</p>
+    <hr>
+    <h1>Image</h1>
+    <img src="/img/images.jpeg" 
+    width="300px"
+    height="200px"
+    alt="Gambar seele">
+    <!-- lokasi gambar harus menyesuaikan dengan lokasi file html. -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGcZdWwrqKw69CdTuRmWuwVax_5d4vUuLHy8RtJCEn9_hEgOS6K_ny8oGcGU1lJkceFLI&usqp=CAU" 
+    alt="Image dari url luar">
+    <hr>
+    <h1>LINK</h1>
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <a href="secondPage.html">Page 2</a>
+    <hr>
+    <h1>FORM    </h1>
+    <form action="">
+        <label for="">Nama</label>
+        <input type="text" name="nama" id="nama" placeholder="Masukkan nama"> 
+        <br>
+        <label for="">Umur</label>
+        <input type="number" name="" id="">
+        <label for="">comment</label>
+        <textarea name="" id="">Tulis Komentar</textarea>
+        <label for="">password</label>
+        <input type="password" name="" id="">
+        <input type="radio" value="laki-laki" name="jenis-kelamin">> laku-laki
+        <input type="radio" value="perempuan" name="jenis-kelamin">> perempuan
+        <br>
+        <input type="checkbox" name="hobi" id="">> hobi 2
+        <button></button>
+
+        <label for="">Makanan favorit</label>
+        <select name="" id="">
+            <option value="sate">Sate</option>
+            <option value="soto">soto</option>
+        </select>
+    </form>
+
+    <h1>TAILWIND</h1>
+    <p class="text-3xl pb-4 text-blue-500 font-bold pl-6 pt-4 bg-green-100">Hello world</p>
+
+
+</body>
+</html>
